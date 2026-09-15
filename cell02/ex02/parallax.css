@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.parallax {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1 {
+    background-image: url("https://i.kickstarter.com/assets/011/533/904/f58978f175eba8065d1b5afe4545876d_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1463684109&width=1024&sig=XeW3JHni18Z5lDVe%2FTr%2FfKjQBIKeWBXCSPOwpFbZ%2BdQ%3D");
+}
+.img2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQ9DrDyvOmNUqpt4-jJuupKuQt8kdpcETPCwHW3yxKcgQS5W_t14nZ6Ze&s=10");
+}
+.center-text {
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.black-block {
+    background-color: #000000;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black-block-text {
+    color: #FFFFFF;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+}
