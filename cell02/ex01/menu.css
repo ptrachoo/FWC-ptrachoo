@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding-top: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                url("https://a.storyblok.com/f/181192/1200x628/ce87d94ed0/train_inoui_sncf_montagne.jpg/m/3840x0/filters:quality(75)");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.navbar {
+    background-color: #0b2240;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+.nav-list {
+    list-style: none;
+}
+.nav-item {
+    position: relative;
+}
+.dropbtn {
+    display: block;
+    color: #ffffff;
+    padding: 16px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border-radius: 8px;
+    transition: background-color 0.25s ease;
+}
+.dropbtn:hover {
+    background-color: #c4003f;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    min-width: 220px;
+    background-color: #ffffff;
+    list-style: none;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    z-index: 10;
+}
+.dropdown-content li a {
+    display: block;
+    color: #222222;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    border-bottom: 1px solid #eeeeee;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.dropdown-content li:last-child a {
+    border-bottom: none;
+}
+.dropdown-content li a:hover {
+    background-color: #f7f7f7;
+    color: #c4003f;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
