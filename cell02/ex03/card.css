@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffff;
@@ -13,8 +12,6 @@ body {
     align-items: center;
     padding-top: 40px;
 }
-
-/* Standalone title at the top */
 .page-title {
     font-family: "Times New Roman", Times, serif;
     font-size: 32px;
@@ -22,22 +19,17 @@ body {
     color: #000000;
     margin-bottom: 24px;
 }
-
-/* Card container matching the example */
 .card {
     width: 300px;
     background-color: #ffffff;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
-
-/* Invisible alignment table */
 .card-table {
     width: 100%;
     border-collapse: collapse;
     border: none;
 }
-
 .card-table td {
     border: none;
     padding: 0;
