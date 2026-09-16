@@ -6,18 +6,38 @@
         <link rel="stylesheet" href="menu.css">
     </head>
     <body>
-        <nav class="navbar">
-            <ul class="nav-list">
-                <li class="nav-item dropdown">
-                    <a href="#" class="dropbtn">SNCF Sandwiches &#9662;</a>
-                    <ul class="dropdown-content">
-                        <li><a href="#">Jambon Beurre</a></li>
-                        <li><a href="#">Ham &amp; Cheese</a></li>
-                        <li><a href="#">Poulet Crudités</a></li>
-                        <li><a href="#">Bagnat Thon</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <div class="menu-container">
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="dropbtn">SNCF Sandwiches &#9662;</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#club">Club sandwich</a></li>
+                            <li><a href="#chicken">Chicken bun</a></li>
+                            <li><a href="#croque">Le croque-monsieur</a></li>
+                            <li><a href="#burger">Beef Burger (or sandwich?)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="preview-area">
+                <div id="club" class="preview-card">
+                    <img src="https://d22rr5qi5k74tb.cloudfront.net/catalog/product/c/e/cel_tgv_ete-26_club_jambon_fromage_qyoxusebwjho2mc6.jpg">
+                    <p>Club Sandwich</p>
+                </div>
+                <div id="chicken" class="preview-card">
+                    <img src="https://d22rr5qi5k74tb.cloudfront.net/catalog/product/c/e/cel_tgv_ete-26_menuclub_qrzqa6ysojagwkxz.jpg">
+                    <p>Chicken Bun</p>
+                </div>
+                <div id="croque" class="preview-card">
+                    <img src="https://d22rr5qi5k74tb.cloudfront.net/catalog/product/c/e/cel_tgv_printemps-26_croquemonsieur_hu4olhfv3whbtdbl.jpg">
+                    <p>Le Croque-Monsieur</p>
+                </div>
+                <div id="burger" class="preview-card">
+                    <img src="https://d22rr5qi5k74tb.cloudfront.net/catalog/product/c/e/cel_tgv_ete-26_burger_ldofu70nmpdwxrsh.jpg">
+                    <p>Beef Burger</p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
