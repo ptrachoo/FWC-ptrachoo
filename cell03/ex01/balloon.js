@@ -20,7 +20,6 @@ balloon.addEventListener('click', function () {
 balloon.addEventListener('mouseleave', function () {
     if (currentSize > 200) {
         currentSize -= 5;
-        // Don't allow shrinking below the minimum 200px
         if (currentSize < 200) {
             currentSize = 200;
         }
