@@ -29,23 +29,31 @@ body {
 }
 .nav-list {
     list-style: none;
+    display: flex;
 }
 .nav-item {
     position: relative;
 }
-.dropbtn {
+.nav-link {
     display: block;
     color: #ffffff;
-    padding: 16px 30px;
+    padding: 16px 24px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.5px;
-    border-radius: 8px;
     transition: background-color 0.25s ease;
 }
-.dropbtn:hover {
+.nav-link:hover {
     background-color: #c4003f;
+}
+.nav-list > .nav-item:first-child .nav-link {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.nav-list > .nav-item:last-child .nav-link {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .dropdown-content {
     display: none;
